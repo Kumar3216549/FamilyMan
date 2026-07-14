@@ -11,14 +11,24 @@
             font-family: Arial, sans-serif;
             background-color: #f5f4f4;
             text-align: center;
-            <h1 style="font-weight: bold; text-decoration: underline;">Name</h1>
-            
         }
 
         h1 {
             color: #2c3e50;
             margin-top: 40px;
             font-size: 48px;
+            font-weight: bold;
+            text-decoration: underline;
+            white-space: nowrap; /* prevents wrapping */
+        }
+
+        p {
+            text-align: justify;
+            margin: 20px auto;
+            width: 80%;
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333;
         }
 
         img {
@@ -26,6 +36,13 @@
             max-width: 90%;
             border-radius: 10px;
             margin: 20px 0;
+        }
+
+        embed {
+            width: 600px;
+            height: 500px;
+            margin: 20px 0;
+            border: 1px solid #ccc;
         }
 
         h2 {
@@ -44,18 +61,17 @@
 <body>
 
     <h1>Zindagi with Sachin</h1>
-    <p1>The Dispatcher's Lantern</p1>
-    <p2>Ravi worked late nights in a small logistics office, where endless paperwork and phone calls blurred together. One evening, when a storm knocked out the power, he lit a lantern and kept coordinating shipments by hand. His calm persistence ensured that medicines reached a hospital on time. The next morning, his manager said, “You didn’t just move goods — you carried hope.” From then on, Ravi realized his work wasn’t just about boxes and bills, but about lives depending on his quiet dedication.</p2>
 
-    
+    <p><strong>The Dispatcher's Lantern</strong></p>
+    <p>Ravi worked late nights in a small logistics office, where endless paperwork and phone calls blurred together. One evening, when a storm knocked out the power, he lit a lantern and kept coordinating shipments by hand. His calm persistence ensured that medicines reached a hospital on time. The next morning, his manager said, “You didn’t just move goods — you carried hope.” From then on, Ravi realized his work wasn’t just about boxes and bills, but about lives depending on his quiet dedication.</p>
+
     <img src="image_1.jpeg" alt="Family Image">
-    <iframe src="Rahul_kumar_jha.pdf" width="600" height="500"></iframe>
-
+    <embed src="Rahul_kumar_jha.pdf" type="application/pdf">
 
     <h2>Sachin Jha</h2>
 
     <footer>
-        Powered by Sachin Kumar jha
+        Powered by Sachin Kumar Jha
     </footer>
 
 </body>
